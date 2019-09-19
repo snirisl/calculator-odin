@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator - The odin project</h1>
+    <div class="calculator card">
+
+        <input type="text" class="calculator-screen z-depth-1" value="0" disabled />
+
+        <div class="calculator-keys">
+            <button type="button" class="operator btn btn-info waves-effect" value="+">+</button>
+            <button type="button" class="operator btn btn-info waves-effect" value="-">-</button>
+            <button type="button" class="operator btn btn-info waves-effect" value="*">*</button>
+            <button type="button" class="operator btn btn-info waves-effect" value="/">/</button>
+            
+            <button type="button" class="number btn btn-light waves-effect" value="7">7</button>
+            <button type="button" class="number btn btn-light waves-effect" value="8">8</button>
+            <button type="button" class="number btn btn-light waves-effect" value="9">9</button>
+
+            <button type="button" class="number btn btn-light waves-effect" value="4">4</button>
+            <button type="button" class="number btn btn-light waves-effect" value="5">5</button>
+            <button type="button" class="number btn btn-light waves-effect" value="6">6</button>
+
+            <button type="button" class="number btn btn-light waves-effect" value="1">1</button>
+            <button type="button" class="number btn btn-light waves-effect" value="2">2</button>
+            <button type="button" class="number btn btn-light waves-effect" value="3">3</button>
+
+            <button type="button" class="number btn btn-light waves-effect zero" value="0">0</button>
+            <button type="button" class="clear btn btn-danger  waves-effect" value="AC">AC</button>
+
+            <button type="button" class="equal-sign  btn btn-primary" value="=">=</button>
+        </div>
+
+        <div class="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
